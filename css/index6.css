@@ -1,0 +1,246 @@
+html{
+    font-size: 50px;
+}
+body,ul,li,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+img,span,input{
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-weight: normal;
+}
+.box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0.01rem 0 0.1rem 0.01rem #ccc;
+    border-bottom: 0.01rem solid #999;
+}
+.box .tou{
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    box-shadow: 0.01rem 0 0.1rem 0.01rem #ccc;
+}
+.box .tou .tou1 img{
+    width: 0.34rem;
+    height: 0.34rem;
+    margin-top: 0.25rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.box .tou h1{
+    width: 4.7rem;
+    height: 0.88rem;
+    margin: 0 auto;
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    color: #666;
+    text-align: center;
+    font-weight: normal;
+}
+.box .tou .tou2 img{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    margin-top: -0.65rem;
+    margin-right: 0.2rem;
+}
+
+.box .gong{
+    width: 100%;
+    height: 1rem;
+    background: pink;
+    border-bottom:0.02rem dashed green;
+}
+.box .gong h1{
+    font-size: 0.3rem;
+    line-height: 1rem;
+    color:red;
+    text-align: center;
+}
+
+.box .dizhi{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.2rem solid #ccc;
+}
+.box .dizhi img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .dizhi h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .dizhi h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .shangjia{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .shangjia img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.1rem;
+    float: right;
+}
+.box .shangjia h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+    margin-left: 0.3rem;
+}
+.box .shangjia h2{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .zhuang{
+    width: 100%;
+    height: 3rem;
+    border-bottom:0.01rem solid #999;
+    overflow: hidden;
+}
+.box .zhuang img{
+    width: 1.5rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    float: left;
+}
+.box .zhuang h1{
+    font-size: 0.25rem;
+    line-height: 0.3rem;
+    margin-top: 0.5rem;
+    color: #333;
+}
+.box .zhuang h2{
+    font-size: 0.25rem;
+    line-height: 0.3rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+.box .zhuang h3{
+    font-size: 0.25rem;
+    line-height: 0.3rem;
+    margin-top: 0.5rem;
+    color: #333;
+    float:left;
+}
+.box .zhuang del{
+    font-size: 0.25rem;
+    line-height: 0.3rem;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    color: #999;
+    float:left;
+}
+.box .zhuang h4{
+    font-size: 0.25rem;
+    line-height: 0.3rem;
+    margin-top: 0.5rem;
+    margin-right: 0.2rem;
+    color: #333;
+    float:right;
+}
+
+.box .heji{
+    width: 100%;
+    height: 1rem;
+    border-bottom:0.01rem solid #999;
+}
+.box .heji h1{
+    font-size: 0.3rem;
+    line-height: 1rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+.box .heji h2{
+    font-size: 0.3rem;
+    line-height: 1rem;
+    margin-right: 0.2rem;
+    float: right;
+}
+
+.box .liuyan{
+    width: 100%;
+    height: 1.5rem;
+    border-bottom:0.01rem solid #999;
+    overflow: hidden;
+}
+.box .liuyan input{
+    width: 7rem;
+    height: 0.8rem;
+    margin:0.3rem auto;
+}
+
+.box .dibu{
+    width: 100%;
+    height: 1rem;
+    box-shadow: 0.01rem 0 0.1rem 0.01rem #ccc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.box .dibu h1{
+    width: 1rem;
+    font-size: 0.3rem;
+    line-height: 1rem;
+    margin-left: 0.2rem;
+    color: #666;
+    float: left;
+}
+.box .dibu h2{
+    width: 1.5rem;
+    font-size: 0.3rem;
+    line-height: 1rem;
+    margin-left: 0.05rem;
+    color: #666;
+    float: left;
+}
+.box .dibu h3{
+    width: 1.5rem;
+    font-size: 0.3rem;
+    line-height: 1rem;
+    margin-left: 1.5rem;
+    color: #666;
+    float: left;
+}
+.box .dibu ul{
+    width: 1.5rem;
+    height: 0.8rem;
+    background: red;
+    margin-top: 0.05rem;
+    margin-right: 0.2rem;
+    float:right;
+}
+.box .dibu ul li{
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,408 @@
+html{
+    font-size: 50px;
+}
+body,ul,li,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    font-weight: normal;
+}
+img,span,input{
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-weight: normal;
+}
+.box{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0.01rem 0 0.1rem 0.01rem #ccc;
+    border-bottom: 0.01rem solid #999;
+}
+.box .top{
+    width: 100%;
+    height: 2.5rem;
+    overflow: hidden;
+    border-bottom: 0.2rem solid #ccc;
+}
+.box .top img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.75rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .top h1{
+    font-size: 0.4rem;
+    line-height: 0.65rem;
+    margin-top: 0.75rem;
+    color: #666666;
+}
+.box .top h2{
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    color: #666666;
+}
+
+.box .ding{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.2rem solid #ccc;
+}
+.box .ding img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .ding h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .ding h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .gouwu{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .gouwu img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .gouwu h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .gouwu h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .pintuan{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .pintuan img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .pintuan h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .pintuan h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .qianbao{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .qianbao img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .qianbao h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .qianbao h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+.box .qianbao h3{
+    font-size: 0.25rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .youhuiquan{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .youhuiquan img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .youhuiquan h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .youhuiquan h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .shangpin{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .shangpin img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .shangpin h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .shangpin h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .dianpu{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.2rem solid #ccc;
+}
+.box .dianpu img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .dianpu h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .dianpu h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .xiaoxi{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .xiaoxi img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .xiaoxi h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .xiaoxi h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .kefu{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .kefu img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .kefu h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .kefu h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.box .yijian{
+    width: 100%;
+    height: 1rem;
+    border: 0.01rem solid #ccc;
+}
+.box .yijian img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .yijian h1{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #666666;
+    float:left;
+}
+.box .yijian h2{
+    font-size: 0.5rem;
+    line-height: 1rem;
+    float: right;
+    margin-right: 0.3rem;
+}
+
+.tuichu{
+    width: 80%;
+    height: 2rem;
+    margin:0.2rem auto;
+    border-radius: 10px;
+    background: red;
+}
+.tuichu h1{
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.box .dibu{
+    width: 100%;
+    height: 1rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.box .dibu .shouye{
+    width: 25%;
+    height: 1rem;
+    float: left;
+}
+.box .dibu .shouye img{
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin:0 auto;
+}
+.box .dibu .shouye h1{
+    font-size: 0.05rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #000000;
+}
+.box .dibu .fenlei{
+    width: 25%;
+    height: 1rem;
+    float: left;
+}
+.box .dibu .fenlei img{
+    width: 0.4rem;
+    height: 0.4rem;
+    line-height: 0.5rem;
+    margin:0.1rem auto;
+}
+.box .dibu .fenlei h1{
+    font-size: 0.05rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #000000;
+}
+.box .dibu .gouwuche{
+    width: 25%;
+    height: 1rem;
+    float: left;
+}
+.box .dibu .gouwuche img{
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin:0 auto;
+}
+.box .dibu .gouwuche h1{
+    font-size: 0.05rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #000000;
+}
+.box .dibu .wode{
+    width: 25%;
+    height: 1rem;
+    background-color: pink;
+    float: left;
+}
+.box .dibu .wode img{
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin:0 auto;
+}
+.box .dibu .wode h1{
+    font-size: 0.05rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #000000;
+}
+
+

@@ -1,0 +1,400 @@
+html{
+	font-size: 50px;
+}
+body,ul,li,h1,h2,h3,h4{
+	margin: 0;
+	padding: 0;
+}
+img,span,input{
+	display: block;
+}
+a{
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+}
+.box{
+	width: 7.5rem;
+	height: auto;
+	margin: 0 auto;
+}
+.box .con{
+	width: 7.5rem;
+	height: 11.26rem;
+	position: relative;
+}
+.box .con img{
+	width: 7.5rem;
+	height: 10.16rem;
+}
+.box .con .guang{
+	width: 1.02rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 9.3rem;
+	right: 0.2rem;
+}
+.box .con .guang h1{
+	font-size: 0.25rem;
+	line-height: 0.4rem;
+	color: #fff;
+}
+.box .con h2{
+	width: 6.86rem;
+	height: 1.07rem;
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+	text-align: center;
+	color: #333;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.box .yuan{
+	width: 6.86rem;
+	height: 1.07rem;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+.box .yuan h1{
+	font-size: 0.3rem;
+	line-height: 0.2rem;
+	color: #333;
+	float: left;
+	margin-top: 0.5rem;
+}
+.box .yuan h2{
+	font-size: 0.6rem;
+	line-height: 1.07rem;
+	color: #000;
+	float: left;
+}
+.box .yuan .zhe{
+	width: 1.2rem;
+	height: 1.07rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.box .yuan .zhe del{
+	font-size: 0.3rem;
+	line-height: 0.2rem;
+	color: #333;
+	float: left;
+	margin-top: 0.5rem;
+}
+.box .yuan .zhe h4{
+	font-size: 0.25rem;
+	line-height: 0.2rem;
+	color: #333;
+	margin-top: 0.6rem;
+}
+.box .url{
+	width: 6.68rem;
+	height: 0.76rem;
+	margin: 0 auto;
+}
+.box .url h1{
+	font-size: 0.25rem;
+	line-height: 0.76rem;
+	color: #666;
+	float: left;
+}
+.box .url h2{
+	font-size: 0.25rem;
+	line-height: 0.76rem;
+	color: #666;
+	float: left;
+	margin-left: 1rem;
+}
+.box .fen{
+	width: 6.68rem;
+	height: 0.76rem;
+	margin: 0 auto;
+}
+.box .fen .fen1 img{
+	width: 0.24rem;
+	height: 0.24rem;
+	float: right;
+	margin-top: 0.22rem;
+}
+.box .fen .qi{
+	width: 2rem;
+	height: 0.36rem;
+	float: left;
+	margin-left: 0.1rem;
+}
+.box .fen .qi img{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-right: 0.1rem;
+}
+.box .fen .qi h1{
+	font-size: 0.25rem;
+	line-height: 0.36rem;
+	color: #666;
+	margin-top: 0.2rem;
+	float: left;
+}
+.box .yan{
+	width: 7.5rem;
+	height: 0.9rem;
+	border-top: 0.2rem solid #eaeaea;
+	border-bottom: 0.2rem solid #eaeaea;
+}
+.box .yan h1{
+	font-size: 0.25rem;
+	line-height: 0.9rem;
+	color: #666;
+	margin-left: 0.3rem;
+}
+.box .yan .fen1 img{
+	width: 0.24rem;
+	height: 0.24rem;
+	float: right;
+	margin-top: -0.5rem;
+	margin-right: 0.4rem;
+}
+.box .you{
+	width: 7.5rem;
+	height: 1.87rem;
+	border-bottom: 0.2rem solid #eaeaea;
+}
+.box .you .hui1{
+	border-top:0.2rem solid #eaeaea;
+}
+.box .you .hui1 h1{
+	width: 6.86rem;
+	height: 0.35rem;
+	margin: 0 auto;
+	font-size: 0.25rem;
+	line-height: 0.35rem;
+	color: #666;
+	/*float:left;*/
+	margin-top: 0.2rem;
+
+}
+.box .you .hui2{
+	width: 6.86rem;
+	height: 1.16rem;
+	margin: 0 auto;
+}
+.box .you .hui2 h1{
+	font-size: 0.25rem;
+	line-height: 0.8rem;
+	color: #666;
+	float: left;
+	margin-top: 0.3rem;
+}
+.box .you .hui2 h2{
+	font-size: 0.25rem;
+	line-height: 0.8rem;
+	color: #666;
+	float: left;
+	margin-left: 1.5rem;
+	margin-top: 0.3rem;
+}
+.box .jia{
+	width: 6.86rem;
+	height: 0.9rem;
+	margin: 0 auto;
+}
+.box .jia h1{
+	font-size: 0.25rem;
+	line-height: 0.9rem;
+	color: #666;
+	float: left;
+}
+.box .jia img{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: right;
+	margin-top: 0.25rem;
+}
+.box .liao{
+	width: 6.68rem;
+	height: 0.9rem;
+	margin: 0 auto;
+}
+.box .liao .liao1{
+	width: 2.2rem;
+	height: 0.4rem;
+	float: left;
+}
+.box .liao .liao1 h1{
+	font-size: 0.25rem;
+	line-height: 0.4rem;
+	color: red;
+	float: left;
+}
+.box .dian{
+	width: 7.5rem;
+	height: 2.35rem;
+	border-top: 0.2rem solid #eaeaea;
+	border-bottom: 0.2rem solid #eaeaea;
+}
+.box .dian .pu{
+	width: 6.86rem;
+	height: 0.96rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box .dian .pu img{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+}
+.box .dian .pu h1{
+	font-size: 0.25rem;
+	line-height: 0.5rem;
+	color: #666;
+	margin-top: 0.1rem;
+}
+.box .dian .pu .xing img{
+	width: 0.2rem;
+	height: 0.2rem;
+	float: left;
+	margin-left: 0.05rem;
+}
+.box .dian .pu .jin{
+	width: 1.25rem;
+	height: 0.6rem;
+	border: 0.01rem solid #999;
+	float: right;
+	margin-top: -0.5rem;
+}
+.box .dian .pu .jin h1{
+	font-size: 0.25rem;
+	line-height: 0.4rem;
+	color: #666;
+	margin-left: 0.2rem;
+}
+.box .dian .xiao{
+	width: 2.3rem;
+	height: 1.26rem;
+	float: left;
+	margin-left: 0.4rem;
+	border-right: 0.01rem solid #eaeaea;
+}
+.box .dian .xiao h1{
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+	color: #333;
+	margin-left: 0.2rem;
+}
+.box .dian .xiao h2{
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+	color: #666;
+	margin-left: 0.2rem;
+}
+.box .dian .xiao2{
+	width: 2.3rem;
+	height: 1.26rem;
+	float: left;
+	border-right: 0.01rem solid #eaeaea;
+}
+.box .dian .xiao2 h1{
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+	color: #333;
+	margin-left: 0.2rem;
+}
+.box .dian .xiao2 h2{
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+	color: #666;
+	margin-left: 0.2rem;
+}
+.box .dian .xiao1{
+	width: 2.3rem;
+	height: 1.26rem;
+	float: left;
+}
+.box .dian .xiao1 h1{
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+	color: #333;
+	margin-left: 0.2rem;
+}
+.box .dian .xiao1 h2{
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+	color: #666;
+	margin-left: 0.2rem;
+}
+
+.box .tu{
+	width: 7.5rem;
+}
+.box .tu img{
+	width: 7.5rem;
+}
+
+
+.box .dibu{
+	width: 7.5rem;
+	height: 1rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.box .dibu .shouye{
+	width: 15%;
+	height: 1rem;
+	float: left;
+}
+.box .dibu .shouye img{
+	width: 0.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin:0.1rem auto;
+}
+.box .dibu .shouye h1{
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+	color: #000000;
+}
+.box .dibu .fenlei{
+	width: 15%;
+	height: 1rem;
+	float: left;
+}
+.box .dibu .fenlei img{
+	width: 0.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin:0.1rem auto;
+}
+.box .dibu .fenlei h1{
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+	color: #000000;
+}
+.box .dibu .gouwuche{
+	width: 35%;
+	height: 1rem;
+	float: left;
+	background: pink;
+}
+.box .dibu .gouwuche h1{
+	font-size: 0.3rem;
+	line-height: 1rem;
+	text-align: center;
+	color: red;
+}
+.box .dibu .wode{
+	width: 35%;
+	height: 1rem;
+	float: left;
+	background: red;
+}
+.box .dibu .wode h1{
+	font-size: 0.3rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+}
